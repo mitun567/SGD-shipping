@@ -36,6 +36,18 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <!-- Netlify Form Detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="company" />
+      <select name="service">
+        <option>Barge Rental</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
+
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
       <div class="container nav-container">
@@ -630,6 +642,7 @@
               method="POST"
               data-netlify="true"
               netlify-honeypot="bot-field"
+              action="/success.html"
               class="contact-form"
               id="contactForm"
             >
