@@ -185,7 +185,7 @@ img {
 }
 
 .logo {
-  height: 60px;
+  height: 80px;
   width: auto;
   transition: all 0.3s ease;
 }
@@ -1376,6 +1376,7 @@ section {
 
 .footer-content {
   padding-bottom: 3rem;
+  /* margin-top: 50px; */
 }
 
 .footer-grid {
@@ -1389,14 +1390,16 @@ section {
   color: var(--gold);
   font-size: 1.3rem;
   margin-bottom: 1.5rem;
+  margin-top: 30px;
 }
 
 .footer-logo {
   margin-bottom: 1.5rem;
+  margin-top: 30px;
 }
 
 .footer-logo img {
-  height: 60px;
+  height: 240px;
   width: auto;
 }
 
