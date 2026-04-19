@@ -436,14 +436,17 @@ img {
 
 .stat-item {
   text-align: center;
+  min-width: 140px;
+  white-space: nowrap;
 }
 
 .stat-number {
   font-size: 3rem;
   font-weight: 700;
   color: var(--gold);
-  font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif, Arial, sans-serif;
   line-height: 1;
+  white-space: nowrap;
 }
 
 .stat-label {
